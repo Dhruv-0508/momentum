@@ -70,7 +70,7 @@ Momentum is a proactive task management application that organizes tasks into "U
 
 ### Deployment
 - **Frontend**: Deploy to Vercel/Netlify.
-- **Backend**: Deploy to Render/Heroku with PostgreSQL.
+- **Backend**: Deploy to Railway with PostgreSQL.
 - **Environment Variables**:
   - Backend: `DJANGO_SECRET_KEY`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`.
   - Frontend: `VITE_API_URL`.
