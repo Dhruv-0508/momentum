@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'tasks',  # Your app
-    'corsheaders',  # If added previously
+    'tasks',  
+    'corsheaders',  
 ]
 
 MIDDLEWARE = [
@@ -100,12 +100,12 @@ LOGGING = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'momentum',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'kanha@2003',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'hTWUtlEYAEBVXojlTknoGZrOEndoRqPs',
+        'HOST': 'nozomi.proxy.rlwy.net',
+        'PORT': '51170',
     }
 }
 
