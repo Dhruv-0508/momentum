@@ -6,15 +6,15 @@ Momentum is a proactive task management application that organizes tasks into "U
 ### Core Features (MVP)
 - **Manual Task Management**: Create, view, update, delete, and mark tasks as complete.
 - **Time-Aware Auto-Bucketing**: Tasks are categorized dynamically based on deadlines and completion status.
-- **Dynamic UI**: Responsive, real-time interface using React, Tailwind CSS, and ShadCN, with tabbed buckets and a date picker.
+- **Dynamic UI**: Responsive, real-time interface using React, Tailwind CSS, with tabbed buckets and a date picker.
 
 ### Innovation Feature: AI-Powered Prioritization
-- **Description**: Suggests the "Most Important Task" (MIT) by using llama3-70b-8192 LLM with groq and if groq didnt worked then  scoring tasks based on urgency keywords (e.g., "urgent," "critical") and deadline proximity.
+- **Description**: Suggests the "Most Important Task" (MIT) by using llama3-70b-8192 LLM with groq and if groq didn't work, then  scoring tasks based on urgency keywords (e.g., "urgent," "critical") and deadline proximity.
 - **Why It's Useful**: Helps users focus on high-priority tasks, reducing overwhelm and boosting productivity.
 - **Implementation**: The backend scores tasks via the `/api/prioritize/` endpoint, and the frontend displays the MIT with a badge.
 
 ## Tech Stack
-- **Frontend**: Vite, React (JavaScript), Tailwind CSS, ShadCN
+- **Frontend**: Vite, React (JavaScript), Tailwind CSS
 - **Backend**: Django, Django REST Framework
 - **Database**: PostgreSQL
 
@@ -70,7 +70,7 @@ Momentum is a proactive task management application that organizes tasks into "U
 
 ### Deployment
 - **Frontend**: Deploy to Vercel/Netlify.
-- **Backend**: Deploy to Render/Heroku with PostgreSQL.
+- **Backend**: Deploy to Railway with PostgreSQL.
 - **Environment Variables**:
   - Backend: `DJANGO_SECRET_KEY`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`.
   - Frontend: `VITE_API_URL`.
