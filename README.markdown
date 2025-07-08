@@ -91,8 +91,6 @@ Momentum is a proactive task management application that organizes tasks into "U
 - Add user authentication and notifications.
 
 ## Live Demo
-[Insert live demo URL after deployment]
-
 #Deployed backend URL
 [https://momentum-gav3.onrender.com]
 
