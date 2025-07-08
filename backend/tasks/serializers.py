@@ -3,7 +3,7 @@ from .models import Task
 from django.utils import timezone
 
 class TaskSerializer(serializers.ModelSerializer):
-   status = serializers.SerializerMethodField()
+    status = serializers.SerializerMethodField()
 
     class Meta:
         model = Task
