@@ -191,8 +191,11 @@ const App = () => {
                   selected={selectedDate}
                   onChange={(date) => setSelectedDate(date)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-indigo-200 focus:border-indigo-500"
-                  dateFormat="EEE, MMM d, yyyy"
+                  dateFormat="EEE, MMM d, yyyy h:mm aa"
                   minDate={new Date()}
+                  showTimeSelect  // enables time picker
+                  timeIntervals={5}  // optional: set time interval
+                  timeCaption="Time"  // optional: label for time picker
                   showPopperArrow={false}
                 />
               </div>
