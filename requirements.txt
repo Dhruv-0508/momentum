@@ -1,3 +1,5 @@
+Django>=5.2,<6.0
+djangorestframework
 gunicorn==23.0.0
 packaging==25.0
 psycopg2-binary==2.9.10
