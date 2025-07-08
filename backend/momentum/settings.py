@@ -58,8 +58,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Allow the frontend dev server
+    'http://localhost:5173',  # For local development
+    'https://momentum-gules.vercel.app',  # Your deployed frontend
 ]
+
 
 ROOT_URLCONF = "momentum.urls"
 
