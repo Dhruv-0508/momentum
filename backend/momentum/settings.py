@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-9a6jr5el%(ysg(w&#=wpmbr$5cct6by_%a6mmcwb8ef%ch9&7z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["momentum-gav3.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
