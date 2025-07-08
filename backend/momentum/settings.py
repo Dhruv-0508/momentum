@@ -101,12 +101,16 @@ LOGGING = {
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default='postgresql://postgres:dBIgvtUwAuFIvONJjUbcdXwldyUdaRVA@mainline.proxy.rlwy.net:59639/railway',
-        conn_max_age=600,
-        ssl_require=True
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'dBIgvtUwAuFIvONJjUbcdXwldyUdaRVA',
+        'HOST': 'mainline.proxy.rlwy.net',
+        'PORT': '59639',
+    }
 }
+
 
 
 # Password validation
