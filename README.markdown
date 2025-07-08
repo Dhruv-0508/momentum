@@ -88,7 +88,6 @@ Momentum is a proactive task management application that organizes tasks into "U
 
 ## Future Improvements
 - Add Celery for scalable auto-bucketing.
-- Integrate NLP for advanced prioritization via xAI API (see https://x.ai/api).
 - Add user authentication and notifications.
 
 ## Live Demo
