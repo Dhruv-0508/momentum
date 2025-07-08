@@ -93,3 +93,12 @@ Momentum is a proactive task management application that organizes tasks into "U
 
 ## Live Demo
 [Insert live demo URL after deployment]
+
+#Deployed backend URL
+[https://momentum-gav3.onrender.com]
+
+#Railway as database
+[https://railway.com/project/ee9faba6-2488-40ab-a9f4-cf589e6d2964/service/8d659185-cee3-4cb4-bc00-9e20552c7b9c/data?environmentId=add001c4-633d-4af3-9608-6ffd1747e5e7]
+
+#Frontend hosted on local host
+[http://localhost:5173/]
